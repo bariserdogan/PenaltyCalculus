@@ -1,0 +1,5 @@
+c:\users\lenovo\documents\visual studio 2015\Projects\PenaltyCalculation\PenaltyCalculation.DataAccess\bin\Debug\PenaltyCalculation.DataAccess.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\PenaltyCalculation\PenaltyCalculation.DataAccess\bin\Debug\PenaltyCalculation.DataAccess.pdb
+c:\users\lenovo\documents\visual studio 2015\Projects\PenaltyCalculation\PenaltyCalculation.DataAccess\obj\Debug\PenaltyCalculation.DataAccess.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2015\Projects\PenaltyCalculation\PenaltyCalculation.DataAccess\obj\Debug\PenaltyCalculation.DataAccess.dll
+c:\users\lenovo\documents\visual studio 2015\Projects\PenaltyCalculation\PenaltyCalculation.DataAccess\obj\Debug\PenaltyCalculation.DataAccess.pdb

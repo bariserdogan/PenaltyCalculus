@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row" style="margin-top:10em">
+        <div class="col-lg-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                    <h4>Penalty Calculation For Library</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="col-xs-12">
+                        <div class="col-xs-5">
+                            @using (Html.BeginForm("SendValues", "Penalty", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                <p>
+                                    <label for="CheckOutDate">Checked Out:</label>
+                                    <input type="date" class="form-control" id="CheckOutDate" name="CheckOutDate" value="@TempData["CheckoutDate"]" />
+                                </p>
+                                <p>
+                                    <label for="ReturnedDate">Returned: </label>
+                                    <input type="date" class="form-control" id="ReturnedDate" name="ReturnedDate" value="@TempData["ReturnedDate"]" />
+                                </p>
+                                <p>
+                                    <label for="CountryId">Country: </label>
+                                    @Html.DropDownList("CountryId",
+                                                        new SelectList(ViewBag.Countries, "CountryId", "CountryName", TempData["SelectedCountry"]),
+                                                        "Please select",
+                                                        new { @id = "CountryId", @class = "form-control" })
+                                </p>
+                                <p><input type="submit" value="Calculate" class="btn btn-info" /></p>
+                            }
+
+                        </div>
+                        <div class="col-xs-7">
+                            @if (@TempData["ResultMessage"] != null)
+                            {
+                                <div class="alert alert-info">
+                                    <p>
+                                        @TempData["ResultMessage"]
+                                    </p>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+

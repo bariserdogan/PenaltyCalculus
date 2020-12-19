@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenaltyCalculation.Web", "PenaltyCalculation.Web\PenaltyCalculation.Web.csproj", "{80412201-7C93-49A8-BF7A-5B4EC29958BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenaltyCalculation.DataAccess", "PenaltyCalculation.DataAccess\PenaltyCalculation.DataAccess.csproj", "{2BD47FC6-02BF-4236-95CA-A1C9891B258E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80412201-7C93-49A8-BF7A-5B4EC29958BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80412201-7C93-49A8-BF7A-5B4EC29958BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80412201-7C93-49A8-BF7A-5B4EC29958BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80412201-7C93-49A8-BF7A-5B4EC29958BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD47FC6-02BF-4236-95CA-A1C9891B258E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD47FC6-02BF-4236-95CA-A1C9891B258E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD47FC6-02BF-4236-95CA-A1C9891B258E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD47FC6-02BF-4236-95CA-A1C9891B258E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
